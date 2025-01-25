@@ -50,6 +50,30 @@ let cities = ["Tbilisi", "Batumi", "Kutaisi"];
 let result = cities . join(" - ");
 console.log(result);
 
+// 7 შეაiტრიალეთ მასივი. 
+// let letters = ["a", "b", "c", "d"]; 
+
+let letters = ["a", "b", "c", "d"]; 
+letters . reverse();
+console.log(letters);
+
+// 8 დაადგინეთ მასივის სიგრძე. 
+// let books = ["Math", "Science", "History"]; 
+// გაარკვიეთ მასივის სიგრძე.
+
+let books = ["Math", "Science", "History"];
+let book = books . length;
+console.log(book);
+
+
+
+
+
+
+
+
+
+
 
 
 
