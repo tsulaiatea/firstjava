@@ -16,6 +16,16 @@ numbers.shift()
 console.log(numbers);
 
 
+// 3. დაამატეთ ელემენტი კონკრეტულ ინდექსზე. 
+// let colors = ["red", "blue", "green"]; 
+// // ჩასვით "yellow" ინდექსზე 1. 
+
+let colors = ["red", "blue", "green"]
+colors .splice(1, 0, "yellow")
+console.log(colors);
+
+
+
 
 
 
