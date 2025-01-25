@@ -24,6 +24,19 @@ let colors = ["red", "blue", "green"]
 colors .splice(1, 0, "yellow")
 console.log(colors);
 
+// 4 ორი მასივი გააერთიანეთ ერთ მასივად. 
+// let animals1 = ["cat", "dog"]; 
+// let animals2 = ["lion", "tiger"]; 
+// გააერთიანეთ მასივები და მიიღეთ ახალი მასივი. 
+
+let animals1 = ["cat", "blue", "dog"];
+let animals2 = ["lion", "tiger"];
+let animals = animals1 . concat(animals2);
+console.log(animals);
+
+
+
+
 
 
 
