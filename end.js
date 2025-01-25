@@ -42,6 +42,14 @@ let scores = [50, 30, 20, 10, 40];
 scores . sort();
 console.log(scores);
 
+// 6 გაერთიანეთ მასივის ყველა ელემენტი ერთ სტრინგში. 
+// let cities = ["Tbilisi", "Batumi", "Kutaisi"]; 
+// გააერთიანეთ ელემენტები, სადაც მათ შორის იქნება " - ". 
+
+let cities = ["Tbilisi", "Batumi", "Kutaisi"]; 
+let result = cities . join(" - ");
+console.log(result);
+
 
 
 
