@@ -34,6 +34,18 @@ let animals2 = ["lion", "tiger"];
 let animals = animals1 . concat(animals2);
 console.log(animals);
 
+// 5 დაალაგეთ მასივი ზრდადობის მიხედვით. 
+// let scores = [50, 30, 20, 10, 40]; 
+// დაალაგეთ მასივი. 
+
+let scores = [50, 30, 20, 10, 40];
+scores . sort();
+console.log(scores);
+
+
+
+
+
 
 
 
