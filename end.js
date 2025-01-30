@@ -66,6 +66,15 @@ let book = books . length;
 console.log(book);
 
 
+let number = [1, 2, 3, 4, [11, 12, 13, [50, 60], 14]];
+// console.log(number [2]);
+// console.log(number [4] [0]);
+console.log(number [4] [3] [1]);
+
+
+
+
+
 
 
 
