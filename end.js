@@ -74,13 +74,69 @@ console.log(book);
 
 // task10
 
-let box = "saba";
-let box1 = box.at(-2);
-console.log(box1);
+// let box = "saba";
+// let box1 = box.at(-2);
+// console.log(box1);
 
 // let box = "saba";
 // let box1 = box. charAt(3);
 // console.log(box1);
+
+// task11
+
+// let box = "saba"
+// let box1 =box.repeat(3);
+// console.log(box1);
+
+
+// let box = "saba"
+// let box1 =box.startsWith("S");
+// console.log(box1);
+
+// let box = "saba"
+// let box1 =box.startsWith("s");
+// console.log(box1);
+
+// let box = "saba"
+// let box1 =box.includes("b");
+// console.log(box1);
+
+// let box = "saba"
+// let box1 =box.includes("k");
+// console.log(box1);
+
+// let box = "saba"
+// let box1 =box.indexOf("b");
+// console.log(box1);
+
+// let box = "saba"
+// let box1 =box.lastIndexOf("b");
+// console.log(box1);
+
+// let box = "saba"
+// let box1 =box.toLocaleLowerCase();
+// console.log(box1);
+
+// let box = "saba"
+// let box1 =box.toLocaleUpperCase();
+// console.log(box1);
+
+// let box = "  saba   "
+// let box1 =box.trim();
+// console.log(box1);
+
+// let box = "  saba   "
+// let box1 =box.trimStart();
+// console.log(box1);
+
+// let box = "  saba   "
+// let box1 =box.trimEnd();
+// console.log(box1);
+
+
+
+
+
 
 
 
