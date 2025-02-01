@@ -214,6 +214,161 @@
 
 
 
+// 31 იანვარი
+
+// let userName = prompt ("დაწერეთ სახელი:");
+// console.log(userName);
+
+// let age = Number (prompt ("დაწერეთ ასაკი:"));
+// console.log(age);
+
+
+// let userName = prompt ("დაწერეთ სახელი:");
+// let result = userName. trim();
+// console.log(result);
+
+// let userName = prompt ("დაწერეთ სახელი:");
+// let result = userName. toLocaleUpperCase()
+// console.log(result);
+
+// let userName = prompt ("დაწერეთ სახელი:");
+// let result = userName. charAt(0). toLocaleUpperCase() + userName. slice(1);
+// console.log(result);
+
+
+// let userName = prompt ("დაწერეთ სახელი:");
+// let result = userName. charAt(0). toLocaleUpperCase() + userName. slice(1). toLocaleLowerCase();
+// console.log(result);
+
+// შექმენით ობიექტი, რომელიც შეიცავს შემდეგ მონაცემებს: 
+// სტრიქონი – მაგალითად, სტუდენტის სახელი. 
+// რიცხვი – მაგალითად, ასაკი. 
+// ბულიანი მნიშვნელობა – მაგალითად,თუ სწავლობს ახლა 
+// ობიექტი – სტუდენტის მისამართი (ქალაქი და ქუჩა). 
+// მასივი – სტუდენტის საყვარელი საგნების სია 
+
+// let student = {
+//     name: "saba",
+//     age: 15,
+//     is_student: true,
+//     favoriteSubjects:["Math", "History", "Sports", "Literature", "Physics"],
+//     addres:{
+//         city :  "poti",
+//         street: "Agmashenebeli",
+//     },
+// }
+// console.log(student.favoriteSubjects[0]);
+
+
+// შექმენი ობიექტი  წიგნის  
+// ობიექტი უნდა შეიცავდეს მონაცემების ყველა ტიპს: 
+// სტრიქონი (string): დასახელება, ავტორი, ადგილი. 
+// რიცხვი (number): ფასი. 
+// ბულიანი (boolean): ხელმისაწვდომობა. 
+// მასივი (array): ჟანრები 
+// ობიექტი (object): ავტორი  
+
+// let book = {
+//     author:{
+//         name:"ნოდარ დუმბაძე",
+//         birthYear:1928,
+//         placeOfBirth: "თბილისი",
+        
+//     },
+//     title: "თეთრი ბაირაღები",
+//     place: "თბილისი",
+//     price: 20,
+//     avialable: true,
+//     genre:[ "სათავგადასავლო", "დეტექტივი", " ფანტასტიკა" ],
+    
+// }
+// book. price = 15;
+// console.log(book);
+
+
+
+
+// console.log(`სათავგადასავლო რომანი ${book.title} ერთ-ერთი საუკეთესო ნაწარმოებია`);
+
+// console.log(`${book.author["name"]} ერთ-ერთი საუკეთესო მწერალია`);
+
+// console.log(book.genre [1]);
+
+
+
+    
+
+
+
+
+
+
+// შექმენი ობიექტი, რომელიც აღწერს თეატრის ბილეთს. 
+
+// სტრიქონი (string): ბილეთის ნომერი, თეატრის სახელი, შოუ. 
+
+// რიცხვი (number): ბილეთის ფასი. 
+
+// ბულიანი (boolean): თუ ბილეთი ხელმისაწვდომია. 
+
+// ობიექტი (object): თეატრის მისამართი. 
+
+// თარიღი (Date): ბილეთის შეძენის თარიღი. 
+
+//   შეცვალეთ ბილეთის ფასი და ხელმისაწვდომობა (isAvailable). 
+
+
+// let theaterTicket = {
+//     ticketNumber:"N1030",
+//     thearName: " ვ.გუნიას სახელობის თეატრი ",
+//     show: "ტყუილი",
+//     price: 20,
+//     avialable: true,
+//     address: {
+//         city :  "ფოთი",
+//         street: "რუსთაველის რკალი",
+//     },
+//     dateOfTicketPurchase: "02.05.2025"
+// }
+
+// console.log(`ძალიან მომეწონა და საინტერესო იყო სპექტაკლი ${theaterTicket.show} და გირჩევთ დაესწროთ`);
+
+// theaterTicket.price = 25;
+// theaterTicket.avialable = false
+// console.log(theaterTicket);
+
+
+// console.log(theaterTicket);
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
