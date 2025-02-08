@@ -358,7 +358,15 @@
 // }
 // }
 
-// 3) 
+// 3) ჯამი 1 დან 100 მდე
+// let sum = 0
+// for (let i =1; i <=100; i++){
+//     // sum = sum +i 
+//     sum += i
+// }
+// console.log(sum);
+
+
 // 4) for ციკლით: დაწერეთ კოდი, რომელიც for ციკლის გამოყენებით დაბეჭდავს რიცხვებს 10-დან 1-მდე. 
 // for (let n=10; n >=1; n--){
 //         console.log(n);
@@ -449,7 +457,34 @@
 //     console.log("ხანდაზმული");
 // }
     
+// 10) დაწერეთ კოდი, რომელიც იღებს რიცხვს და დაბეჭდავს შეტყობინებას, თუ რამდენი ციფრი აქვს მას. მაგალითად, თუ რიცხვი არის 123, დაბეჭდეთ "რიცხვს აქვს 3 ციფრი". 
+// let num = Number (prompt ("დაწერეთ რიცცხვი"));
 
+// რიცხვის რაოდენობის დათვლა
+// let count = 123;
+// let result = count. toString().length;
+// console.log(result);
+
+//        კვირის დღეები
+// let day = 2;
+// if(day % 7 ===0 || day % 7 ===6){
+//     console.log("უქმე");
+    
+// }else{
+//     console.log("სამუშაო დღე");
+    
+// }
+// let day = 2;
+// if(day >=1 && day <=5){
+//     console.log("work");
+    
+// }else if (day === 6 || day ===7){
+//     console.log("not work");
+    
+// }else{
+//     console.log("it is not rigth work");
+    
+// }
 
 
 
