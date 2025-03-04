@@ -589,7 +589,129 @@
 
 
 
+//    10 თებერვლის დავალება
+// დაწერეთ ფუნქცია რომელიც დააბრუნებს მაქსიმალურ რიცხვს
+// function maxNumber (... num) {
+//     let max = 0;
+//     for (item of num);
+//     if(item > max){
+//         max = item
+//     }
    
+//     return max; 
+// }
+
+// let rezult = maxNumber (3, 45, 89, 2, 567)
+// console.log(rezult);
+
+// ფუნქციამ უნდა მიიღოს ორი პარამეტრი start და end....
+
+// function range(start, end) {
+//     let rangeArray =[]
+//     for(let i =start; i<=end; ++1){
+//         rangeArray.push()
+//     }
+//     return rangeArray
+// }
+// let result = range(2,9)
+// console.log(result);
+
+
+
+// 4 დაწერეთ ფუნქცია, რომელიც მიიღებს რამდენიმე სახელს და მათ ყველას მიესალმება
+
+// function greet(...fullname) {
+//     return `გამარჯობა ${fullname}`
+    
+// }
+// let result = greet("teo", "ana", "lika");
+// console.log(result);        dasasrulebeli
+
+
+
+
+// ინფორმაციის წამოღება 
+// fetch()
+
+let currentPage = 1
+let totalPages
+
+function getUsers(page) {
+    fetch('https://reqres.in/api/users?page=' +page,{
+        method:'GET'
+
+    })
+
+    .then(function(response){
+        if(response.status !==200){
+            throw response.status
+            
+        }
+        return response.json()
+    })
+
+    .then (function (responseData){
+        // let container = document.getElementById('container')
+        let fragment = document.createDocumentFragment()
+        totalPages = responseData.total_pages
+        console.log(responseData);
+        
+        // let ul = document.getElementById('ul_list')
+            // let ul = document.createElement('ul')
+            responseData.data.forEach(function(item) {
+                let li = document.createElement('li')
+                li. textContent = item. email
+                let image = document.createElement('img')
+                image. src = item.avatar
+                fragment.appendChild(li)
+                fragment.appendChild(image)
+                // ul.appendChild(li)
+                // ul.appendChild(image)
+                
+            })
+
+            document.getElementById('ul_list').innerHTML =" "
+            document.getElementById('ul_list').appendChild(fragment)
+            // container.appendChild(ul)
+                
+    
+    
+    })
+
+    .catch(function(){
+        let container = document.getElementById('container')
+        let p = document.createElement('p')
+        p.textContent = 'server error 404'
+        container.appendChild(p)
+    })
+
+
+
+    
+}
+
+document.getElementById('loadprev'). addEventListener('click',function(){
+    if(currentPage == 1){
+       return 
+    }
+
+    currentPage -=1
+    getUsers(currentPage)
+    // currentPage = currentPage -1
+
+})
+
+document.getElementById('loadnext').addEventListener('click',function(){
+    if(currentPage == totalPages){
+        return
+    }
+    currentPage +=1
+    getUsers(currentPage)
+
+
+})
+getUsers(currentPage)
+
 
 
 
